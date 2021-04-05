@@ -1,0 +1,303 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+body {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700
+}
+
+.navbar {
+  z-index: 5;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url(../img/bg-masthead.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3
+}
+
+header.masthead h1 {
+  font-size: 2rem
+}
+
+@media (min-width:768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem
+  }
+
+  header.masthead h1 {
+    font-size: 3rem
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover
+}
+
+@media (min-width:768px) {
+  .showcase .showcase-text {
+    padding: 7rem
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0 5px 5px 0 #adb5bd
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url(../img/bg-masthead.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem
+}
+
+/* Hero div */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: url('/img/pic1.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.hero {
+  padding-top: 3.9rem;
+}
+
+.hero .heading {
+  font-size: 2.5rem;
+  margin: -20px 0 13px;
+}
+
+#message-1 {
+  font-size: 16px;
+}
+
+#message-2 {
+  font-size: 19px;
+}
+
+.hero input {
+  border: 1px solid #cccccc;
+  margin-bottom: 8px;
+  padding: 9px;
+  width: 340px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #7868e6;
+  background: #7868e6;
+  color: #fff;
+  padding: 9px;
+  outline: none;
+}
+
+form {
+  padding: 16px;
+}
+
+/* Review div */
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 8px;
+  margin: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  overflow: hidden;
+  padding: 8px;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.des {
+  word-wrap: break-word;
+  padding-left: 24px;
+}
+
+.des img {
+  padding: 15px;
+}
+
+.review .header {
+  padding: 65px;
+}
+
+/* About.hbs css */
+.about {
+  background-color: #f6f6f6;
+  background-size: cover;
+  height: 100vh;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about .container .a {
+  padding: 0.2rem 0;
+}
+
+.about .container .head {
+  padding-top: 3rem;
+}
+
+.des i {
+  padding: 12px;
+  margin: 2rem;
+  font-size: 5rem;
+  color: #7868e6;
+}
+
+.help {
+  margin: 4rem;
+}
+
+.hover:hover {
+  font-size: 5.1rem;
+}
+
+/* Help css..... */
+.temp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.help-item {
+  background-color: #fff;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.temp i {
+  font-size: 6rem;
+  color: #7868e6;
+  margin-top: 9rem;
+   margin-bottom: 1rem;
+}
